@@ -7,15 +7,15 @@ Choose one of these distros:
 3. Arch
 4. Ubuntu-server
 """
-read izbor
+read choice
 
-if [[ $izbor == "1" ]]; then
+if [[ $choice == "1" ]]; then
   apt install 
-elif [[ $izbor == "2" ]]; then
+elif [[ $choice == "2" ]]; then
   dnf install 
-elif [[ $izbor == "3" ]]; then
+elif [[ $choice == "3" ]]; then
   pacman -S
-elif [[ $izbor == "4" ]]; then
+elif [[ choice == "4" ]]; then
   apt install
 else
   echo "Please try again"
