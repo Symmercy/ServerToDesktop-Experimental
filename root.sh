@@ -15,7 +15,7 @@ elif [[ $choice == "2" ]]; then
   dnf install 
 elif [[ $choice == "3" ]]; then
   pacman -S
-elif [[ choice == "4" ]]; then
+elif [[ $choice == "4" ]]; then
   apt install
 else
   echo "Please try again"
