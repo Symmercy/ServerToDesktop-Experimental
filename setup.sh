@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Run this as root, if you are not running as root, cancel and run as root"
+
 echo """
 Choose one of these distros:
 1. Debian
@@ -10,11 +12,11 @@ Choose one of these distros:
 read choice
 
 if [[ $choice == "1" ]]; then
-  apt install 
+  apt install kitty thunar htop vim  
 elif [[ $choice == "2" ]]; then
-  dnf install 
+  dnf install  kitty thunar htop vim
 elif [[ $choice == "3" ]]; then
-  pacman -S
+  pacman -S kitty thunar htop vim
 elif [[ $choice == "4" ]]; then
   apt install
 else
