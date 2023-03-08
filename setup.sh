@@ -12,11 +12,11 @@ Choose one of these distros:
 read choice
 
 if [[ $choice == "1" ]]; then
-  apt install kitty thunar htop vim  
+  apt install   
 elif [[ $choice == "2" ]]; then
-  dnf install  kitty thunar htop vim
+  dnf install  
 elif [[ $choice == "3" ]]; then
-  pacman -S kitty thunar htop vim
+  pacman -S 
 elif [[ $choice == "4" ]]; then
   apt install
 else
