@@ -12,13 +12,13 @@ Choose one of these distros:
 read choice
 
 if [[ $choice == "1" ]]; then
-  apt install   
+ sudo apt install   
 elif [[ $choice == "2" ]]; then
-  dnf install  
+ sudo dnf install  
 elif [[ $choice == "3" ]]; then
-  pacman -S 
+ sudo pacman -S 
 elif [[ $choice == "4" ]]; then
-  apt install
+ sudo apt install
 else
   echo "Please try again"
 fi
