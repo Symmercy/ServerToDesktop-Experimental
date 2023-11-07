@@ -16,7 +16,10 @@ if [[ $choice == "1" ]]; then
 elif [[ $choice == "2" ]]; then
  sudo dnf install  
 elif [[ $choice == "3" ]]; then
- sudo pacman -S 
+ git clone https://github.com/symmercy/dwm-setup
+ cd dwm-setup
+ chmod +x setup.sh
+ ./setup.sh
 elif [[ $choice == "4" ]]; then
  sudo apt install
 else
