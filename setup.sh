@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Run this as root, if you are not running as root, cancel and run as root"
+echo "Don't run this as root, if you are cancel"
 
 echo """
 Choose one of these distros:
